@@ -1,9 +1,3 @@
-/*
- * Noel Delgado | @pixelia_me
- *
- * Music by Term and Conditions Mixes
- * https://soundcloud.com/term-and-conditions-mixes/new-year-dubstep-minimix
-*/
 console.log("Playing: " + path);
 classfication = ["Pure music","Male","Female"];
 console.log("Classification: " + classfication[cls]);
