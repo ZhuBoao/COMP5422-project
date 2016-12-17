@@ -1,0 +1,87 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: black no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.file_button_container,
+.file_button_container input {
+     height: 128px;
+     width: 128px;
+     /*padding-left: -64px;*/
+ }
+input{
+  cursor: pointer;
+}
+
+ .file_button_container {
+    filter: invert(50%);
+     -webkit-filter: invert(50%);
+     background: transparent url(../images/upload.png)
+ }
+
+ .file_button_container input {
+     opacity: 0;
+ }
+.form-container {
+  /*margin:0,auto;*/
+  padding-left: calc(50% - 64px);
+}
+
+#loading {
+  display: none;
+  filter: hue-rotate(40deg);
+   -webkit-filter: hue-rotate(40deg);
+}
